@@ -1,0 +1,80 @@
+*{    
+    box-sizing: border-box
+  
+}
+body{
+    background-color: #FEDCDB;
+    font-family:Arial, Helvetica, sans-serif
+}
+h1 {
+    margin: 50px;
+    font-size: 50px;
+    color: #FE6694;
+    text-align: center;
+    text-shadow: 2px 5px 2px rgba(0, 0, 0, 0.1);
+}
+.container {
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+  .card{
+    width: 200px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
+    background-color: #FE6694;
+    margin:0;   
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .card:hover {
+    transform: scale(1.05); /* Slightly scale up the card on hover */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3); /* Increase shadow on hover for depth */
+}
+  
+
+.card img{
+    padding: 10px;
+    margin-top: 0t;
+    width: 100%;;
+    height: auto;
+}
+
+.info{
+padding-bottom: 10px;
+}
+   
+.info p {
+    text-align: center; 
+    color: #fff;
+    line-height: 0.5;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-shadow: 0px 1px 2px #00000075;
+    
+}
+
+.code{
+    font-size: 12px;
+}
+
+.name{
+    font-weight: 600;
+}
+
+.type {
+    font-weight: 400;
+    color: #fff;
+    padding: 3 20px;
+    border-radius: 3px;    
+    text-shadow: 0px 1px 2px #00000075;
+    width: 200px;
+    background-color: #ffffff33;
+    backdrop-filter: BLUR(10px);    
+
+}
+
